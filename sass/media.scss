@@ -1,4 +1,4 @@
-@import "variables-and-mixins";
+@use "variables-and-mixins" as *;
 
 @media (min-width: 767px) {
 

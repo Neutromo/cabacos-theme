@@ -1,11 +1,11 @@
-
 /*Flexslider*/
+@use "variables-and-mixins" as *;
 
 .flexslider {
 	border: 0;
 	margin: 0;
-	@include box-shadow(none);
-	@include border-radius(0);
+	box-shadow: none;
+	border-radius: 0;
 	border: 10px solid #fff;
 	@include blockStyle();
 
@@ -24,7 +24,7 @@
 		line-height: 150%;
 		background: #000;
 		background: rgba(0, 0, 0, 0.41);
-		@include border-radius(5px);
+		border-radius: 5px;
 	}
 
 	h2{
@@ -83,7 +83,7 @@
 	    background: #fff;
 	    cursor: pointer;
 	    text-indent: -9999px;
-	    @include border-radius(50%);
+	    border-radius: 50%;
 	}
 
 	.flex-control-nav{

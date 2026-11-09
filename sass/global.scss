@@ -8,15 +8,13 @@
 					info@zymphonies.com
 **/
 
-@import "compass/reset";
-@import "compass/CSS3";
-@import "variables-and-mixins";
-@import "base";
-@import "typhography";
-@import "global-styles";
-@import "home.scss";
-@import "header";
-@import "slider";
-@import "menu";
-@import "demo";
-@import "pages";
+@use "variables-and-mixins" as *;
+@use "base" as *;
+@use "typhography" as *;
+@use "global-styles" as *;
+@use "home.scss" as *;
+@use "header" as *;
+@use "slider" as *;
+@use "menu" as *;
+@use "demo" as *;
+@use "pages" as *;

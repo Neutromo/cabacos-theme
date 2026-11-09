@@ -1,3 +1,5 @@
+@use "variables-and-mixins" as *;
+
 .parallax-widget{
 	padding: 80px 0;
 
@@ -147,7 +149,7 @@
 	border: 1px solid #fff;
 	background: rgb(242, 244, 207);
 	background: rgba(242, 244, 207, 0.88);
-	@include box-shadow (5px 5px 0px #fff);
+	box-shadow: 5px 5px 0px #fff;
 
  	h1{
 	  text-transform: uppercase;
