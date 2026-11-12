@@ -46,6 +46,14 @@
 	max-width: 750px;
 	margin: 0 auto;
 	overflow: hidden;
+
+	#block-onepage-zymphonies-theme-content{
+		.item-list{
+			.field-content{
+				div{ padding-top: 50px; }
+			}
+		}
+	}
 }
 
 
