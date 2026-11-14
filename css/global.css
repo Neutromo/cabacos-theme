@@ -710,6 +710,7 @@ abbr.ajax-changed {
 }
 .region-header .brand a img {
   vertical-align: middle;
+  height: 40px;
 }
 .region-header .brand .site-branding__slogan {
   font-size: 0.6em;
